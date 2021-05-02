@@ -1,0 +1,153 @@
+.background{
+  width:"100%";
+  height: '500px'; 
+  background-color: #FF6806
+}
+
+.background_bottom{
+  width:"100%";
+  height: calc(100vh - 457px); 
+  background-color: #FF6806
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .grid{
+    min-height: 100% ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .grid > div{
+    flex-basis: calc(33.333% - 40px);
+  }
+
+  .nation{
+    min-height: 100%;
+    width: 48%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+  }
+
+  .nationImg {
+    width: 250px;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .nationImg:hover{
+    box-shadow: 8px 3px 10px 5px #b0aaaa;;
+  }
+
+  .nation > div{
+    /* flex-basis: calc(85% - 700px); */
+  }
+
+  .nationTitle{
+    font-size: xx-large;
+    color: #373f3e;
+    text-align: center;
+    padding: 3%;
+    font-family: cursive;
+    font-weight: bold;
+  }
+
+  .nationName{
+    text-align: center;
+    padding: 6rem;
+    margin: 1rem;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: bold;
+  }
+
+  .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+
+  .img_center{
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .yip {
+    padding: 15px 25px;
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color:#f9ab2d;
+    border: none;
+    box-shadow: 5px 2px 20px 0px #bc500b;
+  }
+  
+  .yip:hover {
+    background-color: #ffffff;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+
+  .dFlex{
+    display: flex;
+  }
+
+  .detailImg{
+    height: 450px;
+    width: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+
+  .detail{
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    margin: auto;
+  }
